@@ -36,7 +36,6 @@ main img {
 
 .article {
     display: inline-block;
-    text-align: center;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -53,8 +52,8 @@ main img {
 }
 
 .teaser img {
-    max-width: 200px;
-    min-width: 100px;
+    max-width: 625px;
+    min-width: 500px;
     width: 100%;
     height: auto;
     border-style: groove;
