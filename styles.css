@@ -5,15 +5,10 @@
     line-height: 0.5;
 }
 
-#banner img {
-    padding: 15px;
-}
-
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #F0F0F0;
     color: #ffffff;
-    margin: 0;
 }
 
 #navbanner {
@@ -26,7 +21,8 @@ body {
 }
 
 main {
-    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 main img {
@@ -36,13 +32,11 @@ main img {
 
 .article {
     display: inline-block;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 .article img {
     display: inline-block;
-    margin: 25px;
+    margin: 10px;
 }
 
 .teaser {
@@ -53,7 +47,7 @@ main img {
 
 .teaser img {
     max-width: 625px;
-    min-width: 500px;
+    min-width: 300px;
     width: 100%;
     height: auto;
     border-style: groove;
@@ -76,5 +70,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
