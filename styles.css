@@ -28,6 +28,8 @@ body {
 main {
     padding-left: 200px;
     padding-right: 200px;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 main img {
@@ -55,6 +57,7 @@ main img {
 
 .teaser img {
     max-width: 625px;
+    min-width: 300px;
     width: 100%;
     height: auto;
     border-style: groove;
