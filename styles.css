@@ -22,16 +22,35 @@ body {
     margin-right: auto;
     text-align: center;
     border-spacing: 0.25em;
+    height: auto;
 }
 
 main {
-    padding: 50px;
-    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+main img {
+    border-style: groove;
+    margin: 0 auto;
+}
+
+.article {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.article img {
+    display: inline-block;
+    margin: 25px;
+
 }
 
 .teaser {
     max-width: 500;
     margin: 0 auto;
+    text-align: center;
 }
 
 .teaser img {
