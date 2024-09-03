@@ -1,0 +1,61 @@
+#banner {
+    background-color: rgb(68, 38, 88);
+    text-align: center;
+    color: #F0F0F0;
+    line-height: 0.5;
+}
+
+#banner img {
+    padding: 15px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F0F0F0;
+    color: #ffffff;
+    margin: 0;
+}
+
+#navbanner {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 0.25em;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.teaser {
+    max-width: 500;
+    margin: 0 auto;
+}
+
+.teaser img {
+    border-style: groove;
+    width: fit-content;
+    height: auto;
+}
+
+main p {
+    text-indent: 3em;
+    font-size: large;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block; 
+    margin-bottom: 10px; 
+    line-height: 0.2; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
