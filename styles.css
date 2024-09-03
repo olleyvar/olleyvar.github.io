@@ -20,35 +20,35 @@ body {
     height: auto;
 }
 
-main {
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
 main img {
     border-style: groove;
     margin: 0 auto;
 }
 
 .article {
-    display: inline-block;
+    display: flex;
+    align-items:flex-start;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+
 }
 
 .article img {
-    display: inline-block;
     margin: 10px;
 }
 
 .teaser {
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
+    padding: 10px;
 }
 
 .teaser img {
-    max-width: 625px;
-    min-width: 300px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-style: groove;
 }
@@ -70,6 +70,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-
