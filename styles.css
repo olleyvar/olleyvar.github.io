@@ -48,15 +48,16 @@ main img {
 }
 
 .teaser {
-    max-width: 500;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 .teaser img {
-    border-style: groove;
-    width: fit-content;
+    max-width: 625px;
+    width: 100%;
     height: auto;
+    border-style: groove;
 }
 
 main p {
