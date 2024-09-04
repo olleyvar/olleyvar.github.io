@@ -5,6 +5,10 @@
     line-height: 0.5;
 }
 
+#banner img {
+    padding: 15px;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #F0F0F0;
@@ -40,15 +44,15 @@ main img {
 }
 
 .teaser {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 10px;
+    text-align: center;
 }
 
 .teaser img {
-    max-width: 100%;
+    max-width: 625px;
+    min-width: 300px;
+    width: 100%;
     height: auto;
     border-style: groove;
 }
@@ -59,7 +63,7 @@ main p {
     line-height: 1.5rem;
 }
 
-a:hover {
+a {
     text-decoration: none;
 }
 
