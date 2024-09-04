@@ -59,14 +59,6 @@ main p {
     line-height: 1.5rem;
 }
 
-a {
-    text-decoration: none;
-    color: #ffffff;
-    display: block; 
-    margin-bottom: 10px; 
-    line-height: 0.2; 
-}
-
 a:hover {
     text-decoration: underline;
 }
